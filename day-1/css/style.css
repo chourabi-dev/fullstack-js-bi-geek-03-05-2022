@@ -1,0 +1,20 @@
+p {
+    color: orange ;
+}
+
+p {
+    color: green ;
+}
+
+.my-para{
+    color: blue;
+}
+
+
+#unique-p{
+    color: yellow;
+}
+
+p[custom='x']{
+    color: brown;
+}
