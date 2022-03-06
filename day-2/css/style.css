@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+}
+.my-p{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 0;
+    background-color: #8bc34a;
+    padding: 84px;
+}
+
+
+.square{
+    width: 200px;
+    height: 200px;
+
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    /* border-color: orange; */
+    /* border-width: 5px; */
+    border-radius: 7px;
+    background-color: aqua;
+    /* padding: 16px; */
+    /* padding: 39px 31px 33px 30px; */
+    /* padding: 58px 46px; */
+    /* padding-top: 15px;*/
+}
+
+.banner{
+    border: 1px solid #a7a7a7;
+    padding: 17px;
+    border-radius: 9px;
+}
+
+.banner > p{
+    color: #adadad;
+}
+
+
+.banner > h3{
+    color: #585858;
+}
+
+.banner > a{
+    text-decoration: none;
+    font-size: 21px;
+    text-transform: capitalize;
+    color: #03a9f4;
+    border: 1px solid;
+    padding: 4px 30px;
+    border-radius: 9px;
+}
+
+
+.cover{
+    height: 100vh;
+    background-image: url(../imgs/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.block{
+    width: 200px;
+    height: 180px;
+}
+
+.dots{
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+
+}
+
+
+
+/* step one centring an element */
+/*
+    text-align: center;
+    margin-top: calc( 50vh - 9.2px );
+*/
+
+.loader{
+    display: flex;
+    flex-direction: row;
+    justify-content: unset;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.main-nav{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    color: white;
+    padding: 15px;
+    margin-left: 23px;
+    font-size: 30px;
+}
+
+
+.navigation{
+    padding-top: 19px;
+}
+
+.navigation > a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 8px;
+}
+
+
+.avatar{
+    height: 100px;
+    width: 100px;
+    background-image: url(https://www.pngarts.com/files/11/Avatar-PNG-Free-Download.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.avatar > .status{
+    background-color: grey;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    border: 5px solid white;
+}
+
+.avatar > .status.connected{
+    background-color: green !important;
+}
+ 
