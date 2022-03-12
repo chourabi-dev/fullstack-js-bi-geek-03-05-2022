@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+
+.col{
+    float: left;
+}
+
+
+.col-1{
+    width: 8.3333%;
+}
+
+.col-2{
+    width: 16.666666%;
+}
+.col-3{
+    width: 25%;
+}
+
+
+.col-4{
+    width: 33.3333333%;
+}
+
+.col-5{
+    width: 41.666666%;
+}
+
+
+
+.col-6 {
+    width: 50%;
+}
+
+
+
+.col-9{
+    width: 75%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+p{
+    margin: 0;
+}
+
+.card{
+    padding: 10px;
+}
+
+
+
+
+@media screen and (min-width : 500px) and  ( max-width: 700px ){
+    .col{
+        width:  100% !important;
+    }
+}

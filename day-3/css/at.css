@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+
+.banner{
+    background-color: orange;
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.5s ease-in-out, border 0.5s ease-in-out;
+
+
+    /*
+    
+    transition-property: ;
+    transition-duration: ;
+    transition-timing-function: ;
+    
+    */
+}
+
+.banner > h1{
+    color: blue;
+    transition: color 0.5s ease-in-out;
+
+}
+
+.banner > p{
+    color: yellow;
+    transition: color 0.5s ease-in-out;
+
+}
+
+
+.banner:active{
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+.banner:hover > h1{
+    color: black;
+ }
+ .banner:hover > p{
+    color: black;
+ }
+  
+
+
+
+@keyframes move {
+    0% { left: 0; top: 0; }
+    25% { left: calc( 100% - 30px ); top: 0;  }
+    50% { left: calc( 100% - 30px ); top: calc( 100vh - 30px );  }
+    75% { left:0; top: calc( 100vh - 30px );  } 
+    100% { left: 0; top: 0; }
+    
+   
+    
+} 
+
+ .shape{
+     height: 30px;
+     width: 30px;
+     position: fixed;
+     background-color: red;
+     
+     animation-name: move;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+ }
+
+
+
+
+.loader{
+    width : 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-body{
+    display: flex;
+}
+
+@keyframes loader {
+    0% {     transform: translateY(0px); }
+    50% {     transform: translateY(-10px); }
+    100% {     transform: translateY(0px); }
+    
+}
+
+.sq{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    margin-right: 5px;
+
+}
+
+.sq1{
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.sq2{
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+.sq3{
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+.sq4{
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+}
