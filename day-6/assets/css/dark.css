@@ -1,0 +1,32 @@
+.toggle-switch{
+    height: 30px;
+    width: 80px;
+    border-radius: 30px;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+}
+
+.toggle-switch > div{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    background-color: gray;
+    height: 100%;
+    width: 30px;
+    transition: left 0.3s ease-in-out;
+}
+
+
+.toggle-switch.active{ 
+    background-color: rgba(73, 202, 116, 0.623); 
+} 
+
+.toggle-switch.active > div{ 
+   left: 50px;
+} 
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}

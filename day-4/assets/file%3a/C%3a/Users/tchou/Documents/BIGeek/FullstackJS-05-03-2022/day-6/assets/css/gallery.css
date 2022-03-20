@@ -1,0 +1,12 @@
+.gallery{
+    position: relative;
+}
+
+.gallery > .next {
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    background-color: #0000ff38;
+    padding: 15px 10px;
+    color: white;
+}

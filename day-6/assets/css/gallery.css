@@ -1,0 +1,31 @@
+.gallery{
+    position: relative;
+}
+
+
+.w-100{
+    width: 100%;
+}
+
+.gallery > .next {
+    position: absolute;
+    right: 0;
+    border-radius: 50%;
+    background-color: #0000ff38;
+    padding: 15px 10px;
+    color: white;
+    top: calc( 50% - 25px );
+    cursor: pointer;
+}
+
+.gallery > .prev {
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+    background-color: #0000ff38;
+    padding: 15px 10px;
+    color: white;
+    top: calc( 50% - 25px );
+    cursor: pointer;
+
+}
