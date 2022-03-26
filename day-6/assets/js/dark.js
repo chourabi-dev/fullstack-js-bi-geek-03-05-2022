@@ -23,3 +23,5 @@ function bigP(event){
     const element = event.target
     element.style.fontSize=`${size}px`;
 }
+
+ 
