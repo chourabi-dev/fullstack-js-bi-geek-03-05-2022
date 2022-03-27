@@ -1,0 +1,11 @@
+.toolbar>.item{
+    margin-right: 15px;
+    background-color: rgb(241, 241, 241);
+    padding: 9px;
+}
+
+.toolbar>.item.active{
+    background-color: rgb(0 0 0);
+    padding: 9px;
+    color: white;
+}

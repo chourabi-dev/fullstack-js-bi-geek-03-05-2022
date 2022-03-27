@@ -4,6 +4,12 @@
     bottom: 20px;
 }
 
+
+.close-btn{
+    font-size: 35px;
+    display: none;
+}
+
 .zone-chat{
     display: none;
 }
@@ -17,6 +23,12 @@
     display: none;
 }
 
+.chatbot.closed > .close-btn{
+    display: none;
+}
+
+ 
+
 .chatbot.closed > .chat-bot-bar{
     display: block;
 }
@@ -29,6 +41,10 @@
 
 .chatbot.open > .chat-bot-bar{
     display: none;
+}
+
+.chatbot.open > .close-btn{
+    display: block;
 }
 
 
@@ -106,4 +122,7 @@
 .messages{
     height: 100%;
     overflow-y: scroll;
+    border: 1px solid #dadada;
+    padding: 8px; 
 }
+

@@ -12,29 +12,15 @@
 
 
 
-    <div class="chatbot open" id="chtabot">
+    <div class="chatbot closed" id="chtabot">
+
+        <span class="close-btn" id="closebtn">&times;</span>
         <div class="zone-chat" >
             <div class="msg-list">
-                <div class="messages">
-
-                    <div class="message-row">
-                        <div class="sent-msg">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolorum voluptate laboriosam sint similique iste aliquam, accusamus tempora soluta, suscipit repudiandae eum quo sed! Pariatur dignissimos ullam nemo quia libero.
-                        </div>
-                    </div>
-
-                    <div class="message-row">
-                        <div class="recive-msg">
-                            helllo world
-                        </div>
-                    </div>
-                    
-
-                     
-                </div>
+                <div class="messages" id="msgList"></div>
             </div>
             <div class="reply-zone">
-                <input type="text" class="input-reply" placeholder="Your message...">
+                <input type="text" id="replyinput" class="input-reply" placeholder="Your message...">
             </div>
         </div>
 
