@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+ 
+
+.game{
+
+}
+
+.feild{
+  width: 33%;
+  height: 200px; 
+  float: left;
+  border: 1px solid black;
+}
