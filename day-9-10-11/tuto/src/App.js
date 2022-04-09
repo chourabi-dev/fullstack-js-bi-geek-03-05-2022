@@ -4,6 +4,7 @@ import Contact from './componenets/contact';
 import XoGame from './componenets/game';
 import NewsFeed from './componenets/newsFedd';
 import SwitchBtn from './componenets/Switch';
+import UserForm from './componenets/userForm';
 
 export default  class App extends React.Component {
 
@@ -54,10 +55,25 @@ export default  class App extends React.Component {
         }
 
 
-        <XoGame />
+        {
+          /**
+           *  <XoGame />
+           */
+        }
+
+
+
+       {
+         /**
+          * FORMS
+          */
+       }
         
 
 
+        <UserForm />
+
+       
 
 
    
