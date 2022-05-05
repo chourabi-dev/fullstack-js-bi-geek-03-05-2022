@@ -1,0 +1,8 @@
+.toolbar-option {
+  margin-right: 10px;
+}
+
+
+.toolbar-option.active{
+  color: orange;
+}
