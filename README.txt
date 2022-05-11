@@ -25,3 +25,9 @@ https://www.mongodb.com/try/download/community
 
 add mongodb to our server
 npm install mongodb
+
+
+
+JWT
+
+npm i jsonwebtoken
