@@ -109,10 +109,15 @@ export default class ClientsPage extends React.Component {
 
                                             <tbody>
                                                 {
-                                                    this.state.clients.filter( (c)=> 
-                                                    (c.cin.indexOf( this.state.filter ) != -1)
+                                                    this.state.clients.filter( 
+                                                        
+                                                        (c)=> 
+                                                            (c.cin.indexOf( this.state.filter ) != -1)
                                                     ||
                                                     (c.firstname.indexOf( this.state.filter ) != -1)
+
+
+                                                    
                                                     ).map( (c)=>{
                                                         return ( 
                                                         <tr>

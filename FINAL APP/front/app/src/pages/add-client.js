@@ -62,9 +62,14 @@ export default class AddNewClient extends React.Component {
                      succMSG: result.message
                  })
 
-                 setTimeout(() => {
+                 setTimeout(
+                     
+                    () => {
                      this.props.history.push('/clients');
-                 }, 2000);
+                 }, 
+                 
+                 
+                 2000);
             } else {
                 this.setState({
                     errMSG: result.message
@@ -126,7 +131,9 @@ export default class AddNewClient extends React.Component {
                                 <input type="text" className='form-control' value={ this.state.address } onChange = { (e)=>{ this.setState({ address: e.target.value }) } } />
                             </div>
                             <div className="form-group mb-3">
-                               <button type='submit' className='btn btn-success'>Save</button>
+                               <button type='submit' 
+                               
+                               className='btn btn-success'>Save</button>
                             </div>
 
 
